@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài Tập DOM</title>
+  </head>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="./index.css" />
+  <body>
+    <!-- Bài 1 -->
+    <div class="exercise text-center mx-auto mt-5">
+      <h2>Tính Lương Nhân Viên</h2>
+      <div class="form-group">
+        <label for="dailySalary">Lương Mỗi Ngày</label>
+        <input
+          type="text"
+          class="form-control text-center exercise__item"
+          id="dailySalary"
+        />
+      </div>
+      <div class="form-group">
+        <label for="workingDayNumbers">Số Ngày Làm</label>
+        <input
+          type="text"
+          class="form-control text-center exercise__item"
+          id="workingDayNumbers"
+        />
+      </div>
+      <button id="calculateTotalSalary">Tính Lương</button>
+      <div class="result exercise__item" id="totalSalary"></div>
+    </div>
+    <!-- Bài 2 -->
+    <div class="exercise text-center mx-auto mt-5">
+      <h2 class="mb-4">Tính Giá Trị Trung Bình</h2>
+      <div class="row mb-4">
+        <div class="col">
+          <input
+            type="text"
+            class="form-control text-center exercise__item"
+            placeholder="Số Thứ 1"
+            id="Number1"
+          />
+        </div>
+        <div class="col">
+          <input
+            type="text"
+            class="form-control text-center exercise__item"
+            placeholder="Số Thứ 2"
+            id="Number2"
+          />
+        </div>
+        <div class="col">
+          <input
+            type="text"
+            class="form-control text-center exercise__item"
+            placeholder="Số Thứ 3"
+            id="Number3"
+          />
+        </div>
+        <div class="col">
+          <input
+            type="text"
+            class="form-control text-center exercise__item"
+            placeholder="Số Thứ 4"
+            id="Number4"
+          />
+        </div>
+        <div class="col">
+          <input
+            type="text"
+            class="form-control text-center exercise__item"
+            placeholder="Số Thứ 5"
+            id="Number5"
+          />
+        </div>
+      </div>
+      <button id="calculateAvaerageValue">Tính Giá Trị</button>
+      <div class="result exercise__item" id="averageValue"></div>
+    </div>
+    <!-- Bài 3 -->
+    <div class="exercise text-center mx-auto mt-5">
+      <h2>Quy Đổi Tiền</h2>
+      <div class="form-group">
+        <label for="initialAmount">Số Tiền</label>
+        <input
+          type="text"
+          class="form-control text-center exercise__item"
+          id="initialAmount"
+        />
+      </div>
+      <button id="equalTo">Quy Đổi</button>
+      <div class="result exercise__item" id="equivalentAmount"></div>
+    </div>
+    <!-- Bài 4 -->
+    <div class="exercise text-center mx-auto mt-5">
+      <h2 class="mb-4">Tính Chu Vi Và Diện Tích Hình Chữ Nhật</h2>
+      <div class="row mb-4">
+        <div class="col">
+          <input
+            type="text"
+            class="form-control text-center exercise__item"
+            placeholder="Chiều Dài"
+            id="length"
+          />
+        </div>
+        <div class="col">
+          <input
+            type="text"
+            class="form-control text-center exercise__item"
+            placeholder="Chiều Rộng"
+            id="width"
+          />
+        </div>
+      </div>
+      <button id="calculateValue">Tính Toán</button>
+      <div class="result exercise__item" id="value"></div>
+    </div>
+    <!-- Bài 5 -->
+    <div class="exercise text-center mx-auto my-5">
+      <h2>Tính Tổng 2 Ký Số</h2>
+      <div class="form-group">
+        <label for="number">Số Có 2 Chữ Số</label>
+        <input
+          type="text"
+          class="form-control text-center exercise__item"
+          id="number"
+        />
+      </div>
+      <button id="calculateSumDigit">Tính Tổng</button>
+      <div class="result exercise__item" id="sumDigit"></div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
